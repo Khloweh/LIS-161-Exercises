@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Sample Art Store</title>
+</head>
+
+<body>
+  <header>
+    <h1>My Sample Art Store</h1>
+    <p><small><a href="#">Home</a> | <a href="#">Artists</a> | <a href="#">Artworks</a> | <a href="#">About Us</a> | <a href="#">Search</a></small></p>
+  </header>
+
+  <h2>Mademoiselle Caroline Rivi&#232;re</h2>
+
+  <p><small>by <a href="#">Jean-Auguste-Dominique Ingres</a></small></p>
+
+  <a href="images/painting1_large.jpg">
+    <img src="images/painting1_medium.jpg" alt="Portrait of Mademoiselle Caroline Rivi&#232;re by Jean Auguste Dominique Ingres" title="Portrait of Mademoiselle Caroline Rivi&#232;re by Jean Auguste Dominique Ingres" hspace="30px">
+  </a>
+
+  <p>The portrait of Mademoiselle Caroline Rivi&#232;re was painted in 1806 by the French Neoclassical artist Jean Auguste Dominique Ingres, and today hangs in the Louvre. It is the third of three portraits of the Rivi&#232;re family the artist painted that year.</p>
+  <p>
+    Date: <em>1806</em>
+    <br>Medium: <em>Oil on Canvas</em>
+    <br>Dimensions: <em>100 x 70cm</em>
+    <br>Home: <em>Mus&#232;e du Louvre, Paris</em>
+  </p>
+
+  <p><a href="#"><img src="images/add-to-basket_btn.png" alt="Add to Basket button"></a> <a href="#"><img src="images/add-to-favorites_btn.png" alt="Add to Favorites button"></a></p>
+
+  <p>Share: <a href="#"><img src="images/social/email_16.png" alt="Share via Email"></a> <a href="#"><img src="images/social/twitter_16.png" alt="Share via Twitter"></a> <a href="#"><img src="images/social/facebook_16.png" alt="Share via Facebook"></a> <a href="#"><img src="images/social/sharethis_16.png" alt="Share via ShareThis"></a></p>
+
+  <section id="relatedPaintings">
+    <h3>Related Paintings</h3>
+    <p>
+      <a href="images/related1_large.jpg" alt="related1_large image"><img src="images/related1_small.jpg" alt="related1_small image"></a>
+      <a href="images/related2_large.jpg" alt="related2_large image"><img src="images/related2_small.jpg" alt="related2_small image"></a>
+      <a href="images/related3_large.jpg" alt="related3_large image"><img src="images/related3_small.jpg" alt="related3_small image"></a>
+      <a href="images/related4_large.jpg" alt="related4_large image"><img src="images/related4_small.jpg" alt="related4_small image"></a>
+    </p>
+  </section>
+
+  <section id="reviews">
+    <h3>Reviews</h3>
+    <p>
+      <b>Love this painting</b>
+      <br>John Smith <img src="images/star-orange.png" alt="Orange Star"><img src="images/star-orange.png" alt="Orange Star"><img src="images/star-orange.png" alt="Orange Star"><img src="images/star-orange.png" alt="Orange Star"><img src="images/star-white.png" alt="White Star">
+    </p>
+    <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam id metus sit amet ipsum cursus placerat nec vel enim. Aliquam justo tortor, euismod quis facilisis ullancorper, consequat sed eros.</small></p>
+    <hr>
+    <p>
+      <b>It's okay</b>
+      <br>Jane Doe <img src="images/star-orange.png" alt="Orange Star"><img src="images/star-orange.png" alt="Orange Star"><img src="images/star-orange.png" alt="Orange Star"><img src="images/star-white.png" alt="White Star"><img src="images/star-white.png" alt="White Star">
+    </p>
+    <p><small>Quisque vitae ipsum quis nisus sagittis sollicitudin. Nam elementum ipsum malesuada mi sagittis hendreit.</small></p>
+    <hr>
+  </section>
+
+  <footer>
+    <p><small><a href="#">Home</a> | <a href="#">Artists</a> | <a href="#">Artworks</a> | <a href="#">About Us</a> | <a href="#">Search</a></small></p>
+    <p><em>Copyright &copy; 2013 My Sample Art Store</em></p>
+  </footer>
+</body>
+</html>
